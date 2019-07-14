@@ -2,6 +2,8 @@
 
 #include "ofMain.h"
 #include <opencv2/opencv.hpp>
+#include "opencv2/objdetect.hpp"
+#include "opencv2/imgproc.hpp"
 #include "ofxOpenCv.h"
 #include "ofxCv.h"
 
@@ -16,8 +18,15 @@ public:
     void keyPressed(int key);
     void image_sharpening();
     void windowResized(int w, int h);
+    void resize(); 
+    void facialDetection(); 
     cv:: Mat imgsrc;
+    std:: vector<double> face_height;
+    std:: vector<double> face_width;
+    std:: vector<double> face_x_coordinates;
+    std:: vector<double> face_y_coordinates;
     cv:: Mat laplaciansharpened;
     ofImage ofimgsrc;
+    float altering_factor = 1; 
     bool huge_image = true;
 };
