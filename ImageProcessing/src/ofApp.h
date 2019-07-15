@@ -25,6 +25,14 @@ public:
     std:: vector<double> face_width;
     std:: vector<double> face_x_coordinates;
     std:: vector<double> face_y_coordinates;
+    std:: vector<double> eye_height;
+    std:: vector<double> eye_width;
+    std:: vector<double> eye_x_coordinates;
+    std:: vector<double> eye_y_coordinates;
+    std:: vector<double> alternate_face_height;
+    std:: vector<double> alternate_face_width;
+    std:: vector<double> alternate_face_x_coordinates;
+    std:: vector<double> alternate_face_y_coordinates;
     cv:: Mat laplaciansharpened;
     ofImage ofimgsrc;
     float altering_factor = 1; 
