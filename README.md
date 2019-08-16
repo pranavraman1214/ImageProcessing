@@ -1,5 +1,5 @@
 # ImageProcessing
-This is just an experiment with OpenFrameworks, openCv, and image enhancers. The project uses Gaussian Blur Sharpening and Cascade Data from IBM. 
+This is just an experiment with OpenFrameworks, openCv, and image enhancers. The project uses Gaussian Blur Sharpening and Cascade Data from IBM. The project right now is in the development stage of Facial Recognition using Naive Bayes Modeling. 
 
 ## Image Sharpening
 <img width="1530" alt="Screen Shot 2019-08-16 at 1 16 32 AM" src="https://user-images.githubusercontent.com/42951007/63147378-945a8900-bfc3-11e9-9db0-b48282a09a89.png">
